@@ -2,7 +2,7 @@
 export const projects = [
 {
   title: `Weather Check`,
-  description: "Weather Check is a simple web app for checking weather condition of a place. Built with HTML, CSS, and JavaScript.",
+  description: "Weather Check is a simple web app for checking weather condition of a place. Built with React JS, and Tailwind CSS.",
    link: "https://weather-app-nat-han.vercel.app/",
    github: "https://github.com/IdyegeNathaniel/weather-app",
 },

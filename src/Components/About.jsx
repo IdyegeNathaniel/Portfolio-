@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-center inline py-[5px] text-4xl font-bold border-b-4 border-[#398676] ">
           About
         </h2>
-        <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 mt-4 p-4 text-justify text-[15px] sm:text-2xl text-gray-200">
+        <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-4 p-4 text-[15px] text-justify md:text-xl text-gray-200">
           <div>
             <p>{Info.experience}</p>
           </div>

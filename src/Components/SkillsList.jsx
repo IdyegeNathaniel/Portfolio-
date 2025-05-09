@@ -3,7 +3,7 @@ import { skills } from "../data/Skills";
 const SkillsList = () => {
   return (
     <div name="skills" className="bg-slate-900 w-full h-screen text-gray-200">
-      <div className="max-w-[1000px] h-full w-full mx-auto justify-center p-4">
+      <div className="max-w-[1000px] h-full w-full mx-auto justify-center py-20 px-4">
         <div className="text-center ">
           <h2 className="inline py-[5px] text-4xl font-bold border-b-4 border-[#398676]">
             Skills
@@ -20,7 +20,7 @@ const SkillsList = () => {
             >
               <img
                 src={skill.image}
-                className="w-20 mx-auto"
+                className="w-20 mx-auto "
                 alt="skill-icon"
               />
               <p className="my-4">{skill.name}</p>

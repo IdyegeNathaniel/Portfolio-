@@ -4,7 +4,7 @@ import { Info } from "../data/Constants";
 const About = () => {
   return (
     <div name="about" className="bg-slate-900 w-full h-screen text-gray-300">
-      <div className="max-w-[1000px] h-full mx-auto justify-center text-center py-20 items-center">
+      <div className="max-w-[1000px] h-full mx-auto flex flex-col justify-center text-center py-20 items-center">
         <h2 className="text-center inline py-[5px] text-4xl font-bold border-b-4 border-[#398676] ">
           About
         </h2>

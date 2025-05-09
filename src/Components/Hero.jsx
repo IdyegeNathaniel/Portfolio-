@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-7xl font-bold text-[#398676]">
             {Info.name}
           </h1>
-          <h2 className="text-4xl sm:text-5xl font-semibold text-[#398676]">
+          <h2 className="text-3xl sm:text-5xl font-semibold text-[#398676]">
             {Info.role}
           </h2>
           <p className="text-gray-400 py-4 max-w-[700px]">{Info.aim}</p>
